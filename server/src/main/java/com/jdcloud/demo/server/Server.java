@@ -1,0 +1,22 @@
+package com.jdcloud.demo.server;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+/**
+ * @program: Server
+ * @description: server模块启动入口类
+ * @author: zhangjunfeng7
+ * @create: 2018-09-19 21:26
+ **/
+@SpringBootApplication
+@EnableDiscoveryClient
+@EnableScheduling
+public class Server {
+
+    public static void main(String args[]){
+        SpringApplication.run(Server.class, args);
+    }
+}
