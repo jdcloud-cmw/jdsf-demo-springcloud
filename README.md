@@ -30,7 +30,7 @@ parent配置表示我们配置哪个项目作为本项目的父项目，配置�
 
 # 配置及使用说明
 ## 1、注册中心
-用户根据自己的服务实例数创建集群后，点击注册中心列表后的【集群信息】，在集群信息页面的"节点信息"部分的"节点地址"就是注册中心地址。如下图：<br />
+用户根据自己的服务实例数创建集群后，点击[注册中心](https://jdsf-console.jdcloud.com/clusterList)列表后的【集群信息】，在集群信息页面的"节点信息"部分的"节点地址"就是注册中心地址。如下图：<br />
 ![集群地址](./jpg/demo_cluster_nodes.png)<br />
 在配置文件(application.properties)的配置key和使用方式如下图：<br />
 ![配置使用](./jpg/demo_cluster.png)<br />
@@ -41,7 +41,7 @@ parent配置表示我们配置哪个项目作为本项目的父项目，配置�
 
 
 ## 2、调用链
-用户根据调用链写入TPS数据创建调用链集群，然后点击【集群名称】进入调用链详情页，在集群详情页下方的"调用链地址"就显示了调用链提供的各个协议的地址和端口。如下图：<br  />
+用户根据调用链写入TPS数据创建[调用链集群](https://jdsf-console.jdcloud.com/analysisService)，然后点击【集群名称】进入调用链详情页，在集群详情页下方的"调用链地址"就显示了调用链提供的各个协议的地址和端口。如下图：<br  />
 ![调用链地址](./jpg/demo_callchain_addreslist.png)<br />
 在配置文件(application.properties)的配置key和使用方式如下图：<br />
 ![配置使用](./jpg/demo_callchain_setting.png)<br />
